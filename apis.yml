@@ -1,7 +1,17 @@
 aid: sweatcoin
 name: Sweatcoin
-description: Sweatcoin is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Sweatcoin is a health-and-fitness app that converts a user's physical
+  steps and movement into a digital currency ("sweatcoins") that can be redeemed for
+  gadgets, subscriptions, travel vouchers, charity donations, and cryptocurrency.
+  Its proprietary movement-validation algorithms count outdoor steps while, the company
+  states, not selling location data. Sweatcoin reports being a top-3 health & fitness
+  app worldwide with tens of millions of users across 180+ countries, and partners
+  with brands and organizations (NHS, Apple, Amazon and 600+ others) through sponsored
+  challenges, clubs, boosts and an affiliate marketplace. The team also launched the
+  Sweat Economy ($SWEAT), a NEAR-Protocol "movement economy" token, and the Sweat
+  Wallet app, turning tracked movement into on-chain digital value. Sweatcoin exposes
+  no public REST/OpenAPI developer surface; integration is via partner and marketplace
+  programs and the SWEAT on-chain token.
 url: https://raw.githubusercontent.com/api-evangelist/sweatcoin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +19,61 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://sweatco.in/favicon.ico
 tags:
 - Company
+- Fitness
+- Health
+- Wellness
+- Movement
+- Rewards
+- Cryptocurrency
+- Web3
+- Consumer App
+- Loyalty
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sweatcoin-domain-security.yml
 - type: Website
-  url: http://sweatco.in
+  url: https://sweatco.in
+- type: Blog
+  url: https://medium.com/sweat-economy
+- type: HelpCenter
+  url: https://help.sweatco.in
+- type: Support
+  url: https://help.sweatco.in
+- type: PrivacyPolicy
+  url: https://sweatco.in/privacy
+- type: TermsOfService
+  url: https://sweatco.in/tnc
+- type: Partners
+  url: https://lp.sweatco.in/partners
+- type: Whitepaper
+  url: https://whitepaper.swe.at/
+- type: Website
+  url: https://swe.at/
